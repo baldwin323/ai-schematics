@@ -1,0 +1,29 @@
+/* styles.css */
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+}
